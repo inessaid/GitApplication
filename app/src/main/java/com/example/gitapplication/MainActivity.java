@@ -26,11 +26,15 @@ public class MainActivity extends AppCompatActivity {
 
     private int num;
 
+    private int num2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         num =9;
+
+        num2 = 10;
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
